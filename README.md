@@ -23,12 +23,20 @@ Nesse sistema é possível cadastrar, listar, editar e excluir um projeto.
 ## O que aprendi :dart:
 
 :heavy_check_mark: requisições http através do axios;
+
 :heavy_check_mark: Fazer Componentes reutilizáveis em React;
+
 :heavy_check_mark: Gerenciamneto de estado( useState );
+
 :heavy_check_mark: Uso de React Hooks useEffect e useRef;
+
 :heavy_check_mark: Teste Unitário de Componentes;
-:heavy_check_mark: Design responsivo;
+
 :heavy_check_mark: Barra de Pesquisa(Search bar);
+
+:heavy_check_mark: Design responsivo;
+
+
 
 
 ## Dependências
