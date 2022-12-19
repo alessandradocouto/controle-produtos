@@ -2,17 +2,17 @@
 
 React App com operação CRUD utilizando json-server.
 
-[site]() | [código]()
+[site]() | [código](https://github.com/alessandradocouto/app-controle-de-produtos-reactjs)
 
 
-(src/assets/react-app-crud.webm)
+(https://github.com/alessandradocouto/app-controle-de-produtos-reactjs/blob/master/src/assets/react-app-crud.png)
 
 
 ## Índice
-- Sobre
-- O que aprendi
-- Dependências
-- Rodando o app
+- [Sobre](https://github.com/alessandradocouto/app-controle-de-produtos-reactjs#sobre)
+- [O que aprendi](https://github.com/alessandradocouto/app-controle-de-produtos-reactjs#o-que-aprendi-dart)
+- [Dependências](https://github.com/alessandradocouto/app-controle-de-produtos-reactjs#dependências)
+- [Rodando o app](https://github.com/alessandradocouto/app-controle-de-produtos-reactjs#rodando-o-app)
 
 
 ## Sobre
@@ -34,7 +34,7 @@ Nesse sistema é possível cadastrar, listar, editar e excluir um projeto.
 ## Dependências
 
 - [json-server](https://www.npmjs.com/package/json-server) - Pacote para gerar uma "fake" api para consumo no front-end
-- [axios](npm i react-axios) - Pacote para fazer requisições
+- [axios](https://www.npmjs.com/package/axios) - Pacote para fazer requisições
 - [react-icons](https://www.npmjs.com/package/react-icons) - Pacote de ícones para React.js
 - [@testing-library/react](npm install --save-dev @testing-library/react) - Testar aplicação
 
