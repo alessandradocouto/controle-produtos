@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "supplier": "MxOne",
+      "price": 59.9,
+      "status": "Ativo"
+    },
+    {
+      "id": 3,
+      "name": "Boné aba reta",
+      "supplier": "Esportes&Retrôs",
+      "price": 29.9,
+      "status": "Ativo"
+    },
+    {
+      "name": "Bola Qatar 2022",
+      "price": "220.00",
+      "supplier": "Adidas",
+      "status": "Ativo",
+      "id": 7
+    },
+    {
+      "name": "Calça amarela",
+      "price": "90.00",
+      "supplier": "ZT Indústria",
+      "status": "Inativo",
+      "id": 8
+    }
+  ]
+}

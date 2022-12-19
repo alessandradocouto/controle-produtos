@@ -1,0 +1,12 @@
+.nav {
+    height: 15vh;
+    background-color: #22b380;
+}
+
+.nav h1{
+    font-size: 1.75rem;
+    padding-top: 0.8rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}

@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "supplier": "MxOne",
+      "price": 59.9,
+      "status": "Ativo"
+    },
+    {
+      "id": 2,
+      "name": "Calça vermelha",
+      "supplier": "ZT Indústria",
+      "price": 90,
+      "status": "Inativo"
+    },
+    {
+      "id": 3,
+      "name": "Boné aba reta",
+      "supplier": "Esportes&Retrôs",
+      "price": 29.9,
+      "status": "Ativo"
+    },
+    {
+      "id": 4,
+      "name": "Calça moletom roxa",
+      "supplier": "ZT Indústria",
+      "price": 90,
+      "status": "Inativo"
+    }
+  ]
+}
