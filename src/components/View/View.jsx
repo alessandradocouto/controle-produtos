@@ -7,7 +7,7 @@ import { AiFillEdit, AiFillDelete } from 'react-icons/ai';
 // api
 import axios from 'axios';
 // url
-const baseURL = '/products';
+const baseURL = 'https://dashboard.render.com/products';
 
 
 const View = ({ editData, isPending, searchData }) => { 
