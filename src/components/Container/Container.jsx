@@ -155,7 +155,7 @@ const Container = () => {
                 type='submit'
                 value='buscar'
                 classButton='form__btn btn__search'
-                disabledBtn={inputSearch}>  
+                emptyInput={inputSearch}>  
                 </ButtonForm>
               </div>
             </div>

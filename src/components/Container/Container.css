@@ -20,7 +20,6 @@ body{
     margin: -2rem auto;
 }
 
-
 form {
     padding: 1.125rem;
     background-color: #fff;
@@ -69,17 +68,15 @@ input {
 }
 
 .search-bar{
-    width: calc(50px - 10px);
-    height: calc(50px - 10px);
     display: flex;
     justify-content: flex-end;
     align-items: center;
     position: relative;
-    background: transparent;
+    background: none;
     box-sizing: border-box;
     border-radius: 50px;
     border: none;
-    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55 );
+    transition: all 2s cubic-bezier(2s, -0.55, 0.265, 1.55 );
 }
 
 .input{
@@ -87,10 +84,10 @@ input {
     top: -5%;
     left: 0;
     width: 100%;;
-    height: 42.5px;
+    height: 42px;
     line-height: 30px;
     outline: 0;
-    border: 0;
+    border: none;
     display: none;
     font-size: 1em;
     border-radius: 20px;
@@ -103,15 +100,14 @@ input {
     cursor: pointer;
     transition: all 0.5s;
     border-radius: 50px;
-    border: 1px solid #ccc;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(217, 217, 217);
 }
 
 .search-bar:hover .input{
     display: flex;
     width: 180px;
     background: transparent;
-    border: none;
+    box-sizing: border-box;
     transition: all 0.5s; 
 }
 
