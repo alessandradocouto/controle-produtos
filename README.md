@@ -5,7 +5,7 @@ React App com operação CRUD utilizando json-server.
 [site]() | ![código](https://github.com/alessandradocouto/app-controle-de-produtos-reactjs)
 
 
-(https://github.com/alessandradocouto/app-controle-de-produtos-reactjs/blob/master/src/assets/react-app-crud.png)
+https://github.com/alessandradocouto/app-controle-de-produtos-reactjs/blob/master/src/assets/app-crud-react.png
 
 
 
@@ -45,7 +45,7 @@ Nesse sistema é possível cadastrar, listar, editar e excluir um projeto.
 - [json-server](https://www.npmjs.com/package/json-server) - Pacote para gerar uma "fake" api para consumo no front-end
 - [axios](https://www.npmjs.com/package/axios) - Pacote para fazer requisições
 - [react-icons](https://www.npmjs.com/package/react-icons) - Pacote de ícones para React.js
-- [@testing-library/react](npm install --save-dev @testing-library/react) - Testar aplicação
+- [@testing-library/react](https://www.npmjs.com/package/@testing-library/react) - Testar aplicação
 
 
 ## Rodando o app:
