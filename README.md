@@ -2,10 +2,11 @@
 
 React App com operação CRUD utilizando json-server.
 
-[site]() | [código](https://github.com/alessandradocouto/app-controle-de-produtos-reactjs)
+[site]() | ![código](https://github.com/alessandradocouto/app-controle-de-produtos-reactjs)
 
 
 (https://github.com/alessandradocouto/app-controle-de-produtos-reactjs/blob/master/src/assets/react-app-crud.png)
+
 
 
 ## Índice
