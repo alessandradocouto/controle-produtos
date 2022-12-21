@@ -70,9 +70,9 @@ const Container = () => {
 
     await axios.post(`${baseURL}`, valueInput);
 
-    if( id !== 0 ) {
-      await axios.delete(`${baseURL}/${id}`);
-    }
+    // if( id > 0 ) {
+    //   await axios.delete(`${baseURL}/${id}`);
+    // }
 
     setIsPending(true);
     
@@ -163,9 +163,6 @@ const Container = () => {
           </div>
         </form>
       </div>
-      {
-        isPending && <Loading />
-      }
       <View editData={handleEdit} isPending={isPending} searchData={inputSearch} />
     </div>
   )

@@ -106,6 +106,9 @@ const View = ({ editData, isPending, searchData }) => {
       </table>
       {error && <p className='error'>{error.message}</p>}
       {loading && !error && <Loading size ='regular' />}
+      {
+        isPending && <Loading />
+      }
     </section>
   )
 }
