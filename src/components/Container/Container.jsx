@@ -7,6 +7,7 @@ import ButtonForm from '../ButtonForm/ButtonForm';
 import { AiOutlinePlus, AiOutlineSearch } from 'react-icons/ai';
 // api
 import axios from 'axios';
+import Loading from '../Loading/Loading';
 // url
 const baseURL = process.env.REACT_APP_API_URL;
 
@@ -162,6 +163,9 @@ const Container = () => {
           </div>
         </form>
       </div>
+      {
+        isPending && <Loading />
+      }
       <View editData={handleEdit} isPending={isPending} searchData={inputSearch} />
     </div>
   )
