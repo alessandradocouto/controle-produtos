@@ -71,6 +71,10 @@ const Container = () => {
 
     setIsPending(true);
     
+    if(id > 0){
+      axios.delete(`${baseURL}/${id}`);
+    }
+    
     
     nameRef.current.value = '';
     priceRef.current.value = '';
