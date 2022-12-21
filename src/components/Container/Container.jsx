@@ -7,7 +7,6 @@ import ButtonForm from '../ButtonForm/ButtonForm';
 import { AiOutlinePlus, AiOutlineSearch } from 'react-icons/ai';
 // api
 import axios from 'axios';
-import Loading from '../Loading/Loading';
 // url
 const baseURL = process.env.REACT_APP_API_URL;
 
@@ -69,10 +68,6 @@ const Container = () => {
     }
 
     await axios.post(`${baseURL}`, valueInput);
-
-    // if( id > 0 ) {
-    //   await axios.delete(`${baseURL}/${id}`);
-    // }
 
     setIsPending(true);
     
