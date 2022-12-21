@@ -7,7 +7,7 @@ import { AiFillEdit, AiFillDelete } from 'react-icons/ai';
 // api
 import axios from 'axios';
 // url
-const baseURL = 'https://controleprodutos.onrender.com/products';
+const baseURL = 'https://controleprodutos.onrender.com';
 
 
 const View = ({ editData, isPending, searchData }) => { 
@@ -32,7 +32,7 @@ const View = ({ editData, isPending, searchData }) => {
   }
 
   const deleteData = async (id) => {
-    await axios.delete(`${baseURL}/${id}`);
+    await axios.delete(`${baseURL}/products/${id}`);
     setIndex(id);
   }
   
@@ -43,7 +43,7 @@ const View = ({ editData, isPending, searchData }) => {
 
 
   useEffect(() => {
-    axiosFetch(`${baseURL}/?q=${searchData}`);
+    axiosFetch(`${baseURL}/products/?q=${searchData}`);
   }, [ searchData]);
   
 
