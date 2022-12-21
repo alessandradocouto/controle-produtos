@@ -6,6 +6,12 @@ node_modules
 /.pnp
 .pnp.js
 
+# pastas
+data
+/data
+server.js
+/server.js
+
 # testing
 /coverage
 
