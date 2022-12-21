@@ -70,11 +70,12 @@ const Container = () => {
     await axios.post(`${baseURL}`, valueInput);
 
     setIsPending(true);
-    
+
     if(id > 0){
       axios.delete(`${baseURL}/${id}`);
     }
     
+    console.log( id , 'id', index);
     
     nameRef.current.value = '';
     priceRef.current.value = '';
