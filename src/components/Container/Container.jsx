@@ -67,15 +67,13 @@ const Container = () => {
       ? statusInRef.current.valueOf().value : statusAtRef.current.valueOf().value
     }
 
-    await axios.post(`${baseURL}`, valueInput);
-
-    setIsPending(true);
-
     if(id > 0){
       axios.delete(`${baseURL}/${id}`);
     }
 
-    console.log( id , 'id');
+    await axios.post(`${baseURL}`, valueInput);
+
+    setIsPending(true);
     
     nameRef.current.value = '';
     priceRef.current.value = '';
