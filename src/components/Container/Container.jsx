@@ -82,7 +82,7 @@ const Container = () => {
       setIsPending(false);
     }
     
-  }, [isPending]);
+  }, [isPending, id]);
 
 
 
