@@ -74,8 +74,8 @@ const Container = () => {
     if(id > 0){
       axios.delete(`${baseURL}/${id}`);
     }
-    
-    console.log( id , 'id', index);
+
+    console.log( id , 'id');
     
     nameRef.current.value = '';
     priceRef.current.value = '';
