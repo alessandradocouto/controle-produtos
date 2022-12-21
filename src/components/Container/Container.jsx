@@ -9,6 +9,7 @@ import { AiOutlinePlus, AiOutlineSearch } from 'react-icons/ai';
 import axios from 'axios';
 // url
 const baseURL = process.env.REACT_APP_API_URL;
+const urlAPI = '/products/';
 
 const Container = () => {
 
@@ -52,7 +53,7 @@ const Container = () => {
     }
 
     // update com novos values do InputForm
-    await axios.put(`${baseURL}/products/${index}`, newValueInput);
+    await axios.put(`${baseURL}${urlAPI}${index}`, newValueInput);
 
     setIsPending(true);
   }
@@ -67,10 +68,10 @@ const Container = () => {
       ? statusInRef.current.valueOf().value : statusAtRef.current.valueOf().value
     }
 
-    await axios.post(`${baseURL}`, valueInput);
+    await axios.post(`${baseURL}${urlAPI}`, valueInput);
 
     if( id !== 0 ) {
-      await axios.delete(`${baseURL}/products/${id}`);
+      await axios.delete(`${baseURL}${urlAPI}${id}`);
     }
 
     setIsPending(true);

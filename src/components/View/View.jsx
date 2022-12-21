@@ -8,6 +8,7 @@ import { AiFillEdit, AiFillDelete } from 'react-icons/ai';
 import axios from 'axios';
 // url
 const baseURL = process.env.REACT_APP_API_URL;
+const urlAPI = '/products/';
 
 
 const View = ({ editData, isPending, searchData }) => { 
@@ -32,18 +33,18 @@ const View = ({ editData, isPending, searchData }) => {
   }
 
   const deleteData = async (id) => {
-    await axios.delete(`${baseURL}/products/${id}`);
+    await axios.delete(`${baseURL}${urlAPI}${id}`);
     setIndex(id);
   }
   
 
   useEffect(() => {
-    axiosFetch(baseURL);
+    axiosFetch(`${baseURL}${urlAPI}`);
   }, [index, isPending]);
 
 
   useEffect(() => {
-    axiosFetch(`${baseURL}/products/?q=${searchData}`);
+    axiosFetch(`${baseURL}${urlAPI}?q=${searchData}`);
   }, [ searchData]);
   
 
