@@ -8,14 +8,7 @@
       "status": "Ativo"
     },
     {
-      "id": 3,
-      "name": "Bola Copa Qatar 2022",
-      "price": "220.00",
-      "supplier": "Adidas",
-      "status": "Inativo"
-    },
-    {
-      "id": 4,
+      "id": 2,
       "name": "Calça vermelha",
       "price": "90.00",
       "supplier": "ZT Indústria",
@@ -26,7 +19,14 @@
       "price": "29.00",
       "supplier": "Esportes&Retrô",
       "status": "Ativo",
-      "id": 5
+      "id": 3
+    },
+    {
+      "name": "Bola Copa Qatar 2022",
+      "price": "220.00",
+      "supplier": "Adidas New",
+      "status": "Ativo",
+      "id": 4
     }
   ]
 }
