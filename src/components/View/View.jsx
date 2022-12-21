@@ -32,7 +32,7 @@ const View = ({ editData, isPending, searchData }) => {
   }
 
   const deleteData = async (id) => {
-    await axios.delete(`${baseURL}${id}`);
+    await axios.delete(`${baseURL}/${id}`);
     setIndex(id);
   }
   
@@ -43,7 +43,7 @@ const View = ({ editData, isPending, searchData }) => {
 
 
   useEffect(() => {
-    axiosFetch(`${baseURL}?q=${searchData}`);
+    axiosFetch(`${baseURL}/?q=${searchData}`);
   }, [ searchData]);
   
 
