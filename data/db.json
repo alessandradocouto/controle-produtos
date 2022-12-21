@@ -8,25 +8,25 @@
       "status": "Ativo"
     },
     {
-      "id": 2,
-      "name": "Boné aba reta",
-      "supplier": "Esportes&Retrôs",
-      "price": 29.9,
-      "status": "Ativo"
-    },
-    {
+      "id": 3,
       "name": "Bola Copa Qatar 2022",
       "price": "220.00",
       "supplier": "Adidas",
-      "status": "Inativo",
-      "id": 5
+      "status": "Inativo"
     },
     {
+      "id": 4,
       "name": "Calça vermelha",
       "price": "90.00",
       "supplier": "ZT Indústria",
-      "status": "Inativo",
-      "id": 6
+      "status": "Inativo"
+    },
+    {
+      "name": "Boné aba reta",
+      "price": "29.00",
+      "supplier": "Esportes&Retrô",
+      "status": "Ativo",
+      "id": 5
     }
   ]
 }

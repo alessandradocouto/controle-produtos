@@ -8,7 +8,7 @@ import { AiOutlinePlus, AiOutlineSearch } from 'react-icons/ai';
 // api
 import axios from 'axios';
 // url
-const baseURL = 'http://localhost:3000/products';
+const baseURL = 'http://localhost:3001/products';
 
 const Container = () => {
 
