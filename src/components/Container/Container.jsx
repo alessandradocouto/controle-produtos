@@ -52,7 +52,7 @@ const Container = () => {
     }
 
     // update com novos values do InputForm
-    await axios.put(`${baseURL}/${index}`, newValueInput);
+    await axios.put(`${baseURL}/${id}`, newValueInput);
 
     setIsPending(true);
   }
@@ -70,6 +70,7 @@ const Container = () => {
     await axios.post(`${baseURL}`, valueInput);
 
     setIsPending(true);
+    
     
     nameRef.current.value = '';
     priceRef.current.value = '';
