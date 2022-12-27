@@ -9,8 +9,6 @@ node_modules
 # pastas
 data
 /data
-server.js
-/server.js
 
 # testing
 /coverage
