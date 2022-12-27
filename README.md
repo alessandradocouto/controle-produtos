@@ -2,9 +2,9 @@
 
 React App com operação CRUD utilizando json-server.
 
-![site deploy](https://appcontroleprodutos.netlify.app) | ![código](https://github.com/alessandradocouto/app-controle-de-produtos-reactjs)
+[site deploy](https://appcontroleprodutos.netlify.app) | [código](https://github.com/alessandradocouto/app-controle-de-produtos-reactjs)
 
-![crud com form e table para visualziar produtos](https://github.com/alessandradocouto/controle-produtos/blob/master/src/assets/app-crud-react.png)
+![crud com form e table para visualizar produtos](https://github.com/alessandradocouto/controle-produtos/blob/master/src/assets/app-crud-react.png)
 
 
 
